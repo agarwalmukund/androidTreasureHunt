@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--suppress AndroidDomInspection -->
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+     />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        >
+       <!-- <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="10dp"
+            android:text="@string/about_text"
+            android:paddingRight="10dp"
+            android:textSize="18sp"
+            android:textColor="#ff000000" />-->
+
+        <TextView
+            android:id="@+id/hintdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text=""
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/startScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/qr_button"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:textColor="#ff000000" />
+
+    </RelativeLayout>
+</RelativeLayout>

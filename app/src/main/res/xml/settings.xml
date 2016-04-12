@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="music"
+        android:title="@string/music_title"
+        android:summary="@string/music_summary"
+        android:defaultValue="true"
+        />
+    <CheckBoxPreference
+        android:key="difficulty"
+        android:title="@string/difficulty_title"
+        android:summary="@string/difficulty_summary"
+        android:defaultValue="true"
+        />
+    <CheckBoxPreference
+        android:key="demo"
+        android:title="@string/demo_title"
+        android:summary="@string/demo_summary"
+        android:defaultValue="true"
+        />
+    <ListPreference
+        android:key="googlemap"
+        android:entries="@array/googlemap"
+        android:summary="@string/googlemap_summary"
+        android:entryValues="@array/googlemapValues"
+        android:title="@string/googlemap_title"
+        android:defaultValue="0"
+        />
+
+</PreferenceScreen>

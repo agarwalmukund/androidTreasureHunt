@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Treasure Hunt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--Defined by user-->
+    <string name="main_title">Treasure Hunt</string>
+    <string name="continue_label">Continue Hunt</string>
+    <string name="new_game_label">New Hunt</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_text">Treasure Hunt\n\nMukund Agarwal\'\s\nEEEM024 Assignment\nUniversity of Surrey\n\nA treasure hunt game based on the QR tags spread around the campus.</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="settings_label">Settings</string>
+    <string name="settings_title">Treasure Hunt Settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play Background Music</string>
+    <string name="difficulty_title">Difficulty</string>
+    <string name="difficulty_summary">Make your life difficult</string>
+    <string name="googlemap_title">Google Map</string>
+    <string name="googlemap_summary">Choose your map settings</string>
+    <string name="demo_title">Demo Mode</string>
+    <string name="demo_summary">Pre selected locations for a good demo!</string>
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No Moves</string>
+    <string name="keypad_title">Keypad</string>
+</resources>
